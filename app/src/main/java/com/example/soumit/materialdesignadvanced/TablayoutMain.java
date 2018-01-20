@@ -31,6 +31,17 @@ public class TablayoutMain extends AppCompatActivity{
         adapter.addFragment(new TabOneFragment(), "Item One");
         adapter.addFragment(new TabTwoFragment(), "Item Two");
         adapter.addFragment(new TabThreeFragment(), "Item Three");
+        /**
+         * extra elements for scrollable slideshow
+         */
+        adapter.addFragment(new TabFourFragment(), "Item Four");
+        adapter.addFragment(new TabFiveFragment(), "Item Five");
+        adapter.addFragment(new TabSixFragment(), "Item Six");
+        adapter.addFragment(new TabSevenFragment(), "Item Seven");
+        adapter.addFragment(new TabEightFragment(), "Item Eight");
+        adapter.addFragment(new TabNineFragment(), "Item Nine");
+        adapter.addFragment(new TabTenFragment(), "Item Ten");
+        //---------------------------------------------
 
         viewPager.setAdapter(adapter);
 

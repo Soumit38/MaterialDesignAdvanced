@@ -16,12 +16,13 @@
         android:layout_below="@+id/toolbar_id"
         android:background="?attr/colorPrimary"
         app:theme="@style/ToolbarTheme"
-        app:tabMode="fixed"
+        app:tabMode="scrollable"
         app:tabGravity="fill"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <!--can be added inside tablayout-->
+    <!--app:tabMode="fixed"-->
     <!--app:tabTextColor=""-->
     <!--app:tabSelectedTextColor=""-->
 
